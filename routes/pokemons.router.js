@@ -6,6 +6,6 @@ var controller = require("../controllers/pokemons.controller");
 
 var router = express.Router();
 
-router.get("/getAll", controller.getAll);
+router.post("/getAll", controller.getAll);
 
 module.exports = router;
